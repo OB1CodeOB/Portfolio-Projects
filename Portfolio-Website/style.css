@@ -72,14 +72,23 @@ body {
 
 .logo-text h1 {
     font-size: 3rem;
+    background: -webkit-linear-gradient(darkgoldenrod, goldenrod, gold, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .logo-text h2 {
     font-size: 5rem;
+    background: -webkit-linear-gradient(white, gold, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .logo-text h3 {
     font-size: 2rem;
+    background: -webkit-linear-gradient(white, gold, goldenrod, darkgoldenrod);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .nav-menu {
@@ -112,13 +121,23 @@ body {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+    text-transform: uppercase;
+}
+
+.nav-menu li:hover {
+    cursor: pointer;
+    background-color: #033564;
 }
 
 .nav-menu a {
     text-decoration: none;
-    color: #0c93e3;
+    background: -webkit-linear-gradient(white, #0c93e3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .start-selected a {
-    color: darkgoldenrod;
+    background: -webkit-linear-gradient(white, gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
