@@ -65,7 +65,6 @@ body {
 }
 
 .logo-text {
-    color: #fff;
     text-align: center;
     margin-top: 10em;
 }
@@ -75,6 +74,7 @@ body {
     background: -webkit-linear-gradient(darkgoldenrod, goldenrod, gold, white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 12.5px goldenrod;
 }
 
 .logo-text h2 {
@@ -136,7 +136,7 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.start-selected a {
+.nav-menu li:hover a {
     background: -webkit-linear-gradient(white, gold);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
