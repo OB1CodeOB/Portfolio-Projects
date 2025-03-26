@@ -8,3 +8,117 @@
 /* Global styles */
 
 /* Local styles */
+body {
+    height: 100vh;
+}
+
+.wall-outer-bg {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #000, #222, #000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wall-inner-bg {
+    height: 90%;
+    width: 100%;
+    background: transparent;
+    border-top: 5px solid #000;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-top: 5px solid #000;
+}
+
+.doorframe-outer-bg {
+    background: transparent;
+    height: 90%;
+    width: 60%;
+    border-radius: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10em;
+    border-top: 5px solid #000;
+}
+
+.doorframe-inner-bg {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-container {
+    height: 95%;
+    width: 95%;
+    background-color: #000;
+    border-radius: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.logo-text {
+    color: #fff;
+    text-align: center;
+    margin-top: 10em;
+}
+
+.logo-text h1 {
+    font-size: 3rem;
+}
+
+.logo-text h2 {
+    font-size: 5rem;
+}
+
+.logo-text h3 {
+    font-size: 2rem;
+}
+
+.nav-menu {
+    height: 50%;
+    width: 80%;
+    position: absolute;
+    bottom: 3em;
+    border-radius: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+.nav-menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .5em;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-menu li {
+    list-style: none;
+    background-color: #012340;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #0c93e3;
+}
+
+.start-selected a {
+    color: darkgoldenrod;
+}
