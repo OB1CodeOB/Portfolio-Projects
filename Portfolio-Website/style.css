@@ -35,12 +35,12 @@ body {
 .doorframe-outer-bg {
     background: transparent;
     height: 90%;
-    width: 60%;
+    width: 50%;
     border-radius: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10em;
+    margin-right: 15em;
     border-top: 5px solid #000;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .menu-container {
-    height: 95%;
+    height: 750px;
     width: 90%;
     background-color: #000;
     border-radius: 300px;
@@ -62,7 +62,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    position: relative;
+    margin-top: 2em;
 }
 
 .logo-text {
@@ -98,11 +98,13 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+.logo-text h3 span {
+    margin-left: 1em;
+}
+
 .nav-menu {
-    height: 80%;
-    width: 60%;
-    position: absolute;
-    bottom: 0;
+    height: 500px;
+    width: 500px;
     border-radius: 50%;
     display: flex;
     flex-direction: column;
@@ -110,6 +112,9 @@ body {
     justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow: hidden;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 4em;
 }
 
 .nav-menu ul {
@@ -118,7 +123,7 @@ body {
     justify-content: space-between;
     gap: .5em;
     width: 100%;
-    height: 50%;
+    height: 70%;
 }
 
 .nav-menu li {
