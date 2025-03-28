@@ -6,5 +6,70 @@
 }
 
 /* Global styles */
+body {
+    background-color: #ffddb0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
 
 /* Local styles */
+
+/* HEADER */
+header .top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+}
+
+/* Logo */
+.top-row .logo {
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+}
+
+/* Site navigation */
+.top-row .top-nav ul {
+    display: flex;
+    gap: 1.5em;
+    border: 1px solid;
+}
+
+.top-row .top-nav li {
+    padding: 1em;
+}
+
+.top-row .profile-and-cart {
+    border: 1px solid;
+    display: flex;
+    padding: 1em;
+    gap: 1.5em;
+}
+
+.top-row .location {
+    display: flex;
+    align-items: center;
+}
+
+.location .city-state span {
+    display: block;
+}
+
+.location, .profile, .cart {
+    border: 0;
+}
+
+
+
+/* MAIN */
+
+
+
+/* FOOTER */
