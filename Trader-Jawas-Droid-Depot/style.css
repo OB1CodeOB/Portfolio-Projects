@@ -34,16 +34,6 @@ header .top-row {
     align-items: center;
 }
 
-/* Site navigation */
-.top-row .top-nav ul {
-    display: flex;
-    gap: 1.5em;
-}
-
-.top-row .top-nav li {
-    padding: 1em;
-}
-
 .top-row .profile-and-cart {
     display: flex;
     padding: 1em;
@@ -91,8 +81,18 @@ header .top-row {
 }
 
 /* MAIN */
-.content-area {
-    padding: 0 2em;
+.content-area h2 {
+    padding-bottom: 1em;
+}
+
+.promos,
+.popular-parts,
+.best-sellers,
+.top-brands,
+.featured-tutorial-videos,
+.popular-topics,
+.email-deals {
+    padding: 1em 2em;
 }
 
 /* Promos */
@@ -116,7 +116,8 @@ header .top-row {
 }
 
 /* Popular Items, Best Sellers */
-.popular-parts, .best-sellers {
+.popular-parts,
+.best-sellers {
     width: 100%;
     margin: 3em 0;
 }
@@ -125,9 +126,8 @@ header .top-row {
 .best-sellers .slider {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     gap: 1.5em;
-    padding-top: 1em;
 }
 
 .popular-parts .product-card,
@@ -142,6 +142,163 @@ header .top-row {
     flex-grow: 1;
 }
 
+/* Top brands */
+.top-brands {
+    margin: 3em 0;
+}
 
+.top-brands .brand-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.5em;
+}
+
+.brand-grid .brand-card {
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+/* Featured Tutorial Videos */
+.featured-tutorial-videos {
+    margin: 3em 0;
+}
+
+.featured-tutorial-videos .slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+.slider .video-container {
+    border: 1px solid;
+    padding: 1em;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.popular-topics {
+    margin: 3em 0;
+}
+
+.popular-topics .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular-topics .topics-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+.topics-container .topic-card {
+    border: 1px solid;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+/* Email deals */
+.email-deals {
+    background-color: #555;
+    color: #fff;
+}
+
+.email-deals .email-container {
+    position: relative;
+    border: 1px solid;
+    width: 25%;
+    margin-top: 1em;
+}
+
+.email-deals .email-input {
+    width: 100%;
+    border: none;
+    padding: 1em;
+}
+
+.email-deals .submit-btn {
+    position: absolute;
+    right: 0;
+    border: none;
+    padding: 1em;
+}
 
 /* FOOTER */
+footer {
+    background-color: steelblue;
+    color: white;
+    padding: 0 2em;
+}
+
+footer a {
+    color: white;
+}
+
+footer .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 0;
+}
+
+/* Internal links */
+footer .internal-links li {
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* External links */
+footer .external-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+/* App download */
+footer .app-download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 2em;
+}
+
+.app-download .app-btn {
+    border: none;
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+    border-radius: 5px;
+}
+
+footer .legal-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+footer .copyright {
+    text-align: center;
+}
