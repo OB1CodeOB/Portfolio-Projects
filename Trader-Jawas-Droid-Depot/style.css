@@ -25,6 +25,7 @@ header .top-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 2em;
 }
 
 /* Logo */
@@ -58,7 +59,9 @@ header .top-row {
     display: block;
 }
 
-.location, .profile, .cart {
+.location,
+.profile,
+.cart {
     border: none;
 }
 
@@ -87,9 +90,57 @@ header .top-row {
     border: none;
 }
 
-
-
 /* MAIN */
+.content-area {
+    padding: 0 2em;
+}
+
+/* Promos */
+.content-area .promos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3em;
+    margin: 3em 0;
+}
+
+.content-area .promo-card {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    flex-grow: 1;
+    padding: 1em;
+}
+
+/* Popular Items, Best Sellers */
+.popular-parts, .best-sellers {
+    width: 100%;
+    margin: 3em 0;
+}
+
+.popular-parts .slider,
+.best-sellers .slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1.5em;
+    padding-top: 1em;
+}
+
+.popular-parts .product-card,
+.best-sellers .product-card {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    height: 300px;
+    flex-grow: 1;
+}
 
 
 
