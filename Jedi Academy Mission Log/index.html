@@ -6,32 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="A Star Trek-themed blog that records entries by Captain Jean-Luc Picard describing his missions aboard the USS Enterprise.">
-    <title>Captain's Blog</title>
+    <title>Jedi Academy | Mission Log</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 
 <body>
     <!-- Logo -->
-    <header class="blog-logo">
+    <header class="logo">
         <img src="" alt="#" class="logo">
-        <h1 class="blog-title">Captain's Blog</h1>
+        <h1 class="log-title">Jedi Academy Mission Log</h1>
+
+        <!-- Log search -->
+        <div class="search">
+            <label for="search-input"></label>
+            <input type="search" id="search-input" class="search-input">
+            <img src="#" alt="#"><!--spyglass icon-->
+        </div>
     </header>
 
-    <!-- Blog navigation -->
-    <nav class="blog-nav"></nav>
-
-    <!-- Blog directory -->
-    <aside class="blog-directory">
-        <nav class="directory-nav"></nav>
-    </aside>
-
     <!-- Blog posts -->
-    <main class="blog-posts"></main>
+    <main class="log-entries">
 
-    <!-- Enternal links -->
+        <div class="log-entry">
+            <h2 class="title">Entry title</h2>
+            <p class="date">Date</p>
+            <p class="paragraph">entry paragraph</p>
+
+            <div class="likes">
+                <div class="thumbs-up">
+                    <img src="#" alt="#"><!--thumbs-up icon-->
+                    <p class="thumbs-up-count">150</p>
+                </div>
+
+                <div class="thumbs-down">
+                    <img src="#" alt="#"><!--thumbs-up icon-->
+                    <p class="thumbs-down-count">3</p>
+                </div>
+            </div>
+
+            <div class="comments">
+                <div class="comment">
+                    <h2 class="commentor">commentor name</h2>
+                    <p class="comment"></p>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- External links -->
     <footer class="external-links">
-        <nav class="external-nav"></nav>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#"><img src="#" alt="#"></a>
+                </li><!--Github-->
+                <li>
+                    <a href="#"><img src="#" alt="#"></a>
+                </li><!--LinkedIn-->
+                <li>
+                    <a href="#"><img src="#" alt="#"></a>
+                </li><!--Youtube-->
+                <li>
+                    <a href="#"><img src="#" alt="#"></a>
+                </li><!--Facebook-->
+                <li>
+                    <a href="#"><img src="#" alt="#"></a>
+                </li><!--X-->
+                <li>
+                    <a href="#"><img src="#" alt="#"></a>
+                </li><!--Instagram-->
+            </ul>
+        </nav>
     </footer>
 </body>
 

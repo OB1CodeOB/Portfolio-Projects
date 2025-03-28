@@ -1,1 +1,1 @@
-# Project: Captain's Blog
+# Project: Jedi Academy Mission Blog
