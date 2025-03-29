@@ -7,7 +7,7 @@
 
 /* Global styles */
 body {
-    background-color: black;
+    background: linear-gradient(to right, black, white, black);
     color: white;
 }
 
@@ -24,6 +24,20 @@ li {
 
 /* HOME PAGE */
 
+body {
+    position: relative;
+    background: linear-gradient(black, white);
+}
+
+.profile {
+    position: absolute;
+}
+
+.title-and-menu {
+    position: absolute;
+}
+
+
 /* BIO PAGE */
 
 /* SKILLS PAGE */
@@ -31,4 +45,3 @@ li {
 /* PROJECTS PAGE */
 
 /* CONTACT PAGE */
-
