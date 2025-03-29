@@ -97,12 +97,15 @@ li {
 
 .name-and-title h1 {
     font-size: 4rem;
+    color: gold;
 }
 
 .name-and-title h2 {
     font-size: 7rem;
     display: flex;
     align-items: start;
+    padding-bottom: .25em;
+    color: goldenrod;
 }
 
 .name-and-title h2 span {
@@ -111,17 +114,76 @@ li {
 
 .name-and-title h3 {
     font-size: 4rem;
+    color: darkgoldenrod;
+}
+
+/* Services Menu */
+.menu-outer-border {
+    height: 610px;
+    width: 610px;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #03385c;
+}
+
+.menu-inner-border {
+    height: 550px;
+    width: 550px;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.menu-container {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.menu-container ul {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.menu-container li {
+    padding: 1em;
+    background-color: #012340;
+    text-align: center;
 }
 
 /* Lightsaber */
 .lightsaber-hilt {
-    position: relative;
-    bottom: 215px;
+    position: absolute;
+    bottom: 235px;
     height: 50px;
     width: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
 }
 
 .bottom {
@@ -198,24 +260,15 @@ li {
     height: 100%;
     width: 15px;
     border-left: 5px solid #000;
-    border-radius: 50px 0 0 50px; 
+    border-radius: 50px 0 0 50px;
 }
 
 .emitter {
     background: linear-gradient(#000, #fff, #000);
     height: 80%;
     width: 7px;
-    border-left: 5px solid #000; 
+    border-left: 5px solid #000;
 }
-
-
-
-/* Services menu */
-
-
-
-
-
 
 /* FOOTER */
 .bottom-main-blastdoor {
