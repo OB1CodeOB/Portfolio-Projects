@@ -10,6 +10,7 @@ body {
     background-color: #000;
     color: white;
     height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 a {
@@ -36,6 +37,7 @@ li {
     border-bottom: 10px outset #333;
 }
 
+/* MAIN */
 .blastdoor {
     height: 90vh;
     display: flex;
@@ -53,6 +55,12 @@ li {
     border-bottom: 20px outset #666;
 }
 
+.blue-line {
+    background-color: #04041d;
+    height: 5px;
+}
+
+/* Profile */
 .profile,
 .title-and-menu {
     position: absolute;
@@ -66,6 +74,7 @@ li {
     top: 200px;
 }
 
+/* Name and title */
 .title-and-menu {
     background-color: #000;
     height: 65vh;
@@ -75,8 +84,140 @@ li {
     border-radius: 250px;
     border-top: 20px inset #666;
     border-bottom: 20px outset #666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+.name-and-title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.name-and-title h1 {
+    font-size: 4rem;
+}
+
+.name-and-title h2 {
+    font-size: 7rem;
+    display: flex;
+    align-items: start;
+}
+
+.name-and-title h2 span {
+    font-size: 9rem;
+}
+
+.name-and-title h3 {
+    font-size: 4rem;
+}
+
+/* Lightsaber */
+.lightsaber-hilt {
+    position: relative;
+    bottom: 215px;
+    height: 50px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom {
+    background: linear-gradient(#000, #555, #000);
+    height: 70%;
+    width: 15px;
+    border-radius: 50% 0 0 50%;
+}
+
+.bottom-ring {
+    height: 100%;
+    width: 10px;
+    background: linear-gradient(#000, #fff, #000, #fff, #000, #fff, #000);
+    border-left: 2px solid #000;
+}
+
+.connector1 {
+    background: linear-gradient(#000, #555, #000);
+    height: 70%;
+    width: 15px;
+    border-radius: 0 50% 50% 0;
+}
+
+.connector2 {
+    height: 50%;
+    width: 10px;
+    background: linear-gradient(#000, #555, #000);
+    border-left: 1px solid #000;
+
+}
+
+.bottom-plate {
+    background: linear-gradient(#000, #fff, #000);
+    height: 90%;
+    width: 30px;
+    border-left: 5px solid #000;
+}
+
+.grip {
+    background: linear-gradient(#000, #fff, #000);
+    height: 50%;
+    width: 5px;
+    margin: 0 .25em;
+}
+
+.top-shaft1 {
+    background: linear-gradient(#000, #fff, #000);
+    height: 80%;
+    width: 20px;
+}
+
+.top-shaft-bezel {
+    background: linear-gradient(#000, #fff, #000);
+    height: 90%;
+    width: 10px;
+    border-left: 5px solid #000;
+}
+
+.top-shaft2 {
+    background: linear-gradient(#000, #fff, #000);
+    height: 80%;
+    width: 20px;
+}
+
+.top-plate {
+    background: linear-gradient(#000, #fff, #000);
+    height: 85%;
+    width: 70px;
+    border-left: 5px solid #000;
+}
+
+.top-rim {
+    background: linear-gradient(#000, #fff, #000);
+    height: 100%;
+    width: 15px;
+    border-left: 5px solid #000;
+    border-radius: 50px 0 0 50px; 
+}
+
+.emitter {
+    background: linear-gradient(#000, #fff, #000);
+    height: 80%;
+    width: 7px;
+    border-left: 5px solid #000; 
+}
+
+
+
+/* Services menu */
+
+
+
+
+
+
+/* FOOTER */
 .bottom-main-blastdoor {
     border-top: 20px inset #666;
 }
