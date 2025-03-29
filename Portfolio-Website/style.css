@@ -7,8 +7,9 @@
 
 /* Global styles */
 body {
-    background: linear-gradient(to right, #000 40%, #555, #000);
+    background-color: #000;
     color: white;
+    height: 100vh;
 }
 
 a {
@@ -23,17 +24,48 @@ li {
 /* Local styles */
 
 /* HOME PAGE */
-.top-blastdoor-panel {
+
+/* HEADER */
+.top-blastdoor-panel, .bottom-blastdoor-panel {
     height: 5vh;
+    background: linear-gradient(to right, #000 40%, #555, #000);
+}
+
+.top-blastdoor-panel {
     border-bottom: 10px outset #000;
 }
 
-
 .blastdoor {
-    position: relative;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.top-main-blastdoor
+
+
+.top-main-blastdoor, .bottom-main-blastdoor {
+    height: 30vh;
+    background: linear-gradient(to right, #000 40%, #555, #000);
+}
+
+.profile, .title-and-menu {
+    position: absolute;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+.bottom-blastdoor-panel {
+    border-top: 10px outset #000;
+}
 /* BIO PAGE */
 
 /* SKILLS PAGE */
