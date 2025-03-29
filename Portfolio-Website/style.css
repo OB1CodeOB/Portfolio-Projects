@@ -7,7 +7,7 @@
 
 /* Global styles */
 body {
-    background: linear-gradient(to right, black, white, black);
+    background: linear-gradient(to right, #000 40%, #555, #000);
     color: white;
 }
 
@@ -23,21 +23,17 @@ li {
 /* Local styles */
 
 /* HOME PAGE */
+.top-blastdoor-panel {
+    height: 5vh;
+    border-bottom: 10px outset #000;
+}
 
-body {
+
+.blastdoor {
     position: relative;
-    background: linear-gradient(black, white);
 }
 
-.profile {
-    position: absolute;
-}
-
-.title-and-menu {
-    position: absolute;
-}
-
-
+.top-main-blastdoor
 /* BIO PAGE */
 
 /* SKILLS PAGE */
