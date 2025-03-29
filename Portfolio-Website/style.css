@@ -229,6 +229,10 @@ li {
     transform: scale(.7) rotate(180deg);
 }
 
+.lightsaber-hilt:hover {
+    cursor: pointer;
+}
+
 .bottom {
     background: linear-gradient(#000, #555, #000);
     height: 70%;
@@ -324,12 +328,13 @@ li {
     z-index: 7;
     position: absolute;
     top: 355px;
-    left: 699px;
+    right: 708px;
     border-radius: 20px 0 0 20px;
     box-shadow: 0 0 20px rgb(0, 162, 255);
     display: flex;
     align-items: center;
     justify-content: end;
+    transition: .5s ease-in-out;
 }
 
 .lightsaber-blade .inner-glow {
@@ -338,6 +343,10 @@ li {
     background-color: #fff;
     box-shadow: 0 0 15px #fff;
     border-radius: 20px 0 0 20px;
+}
+
+.blade-extend {
+    width: 500px;
 }
 
 
