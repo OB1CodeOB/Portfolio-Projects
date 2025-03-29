@@ -39,7 +39,7 @@ li {
 
 /* MAIN */
 .blastdoor {
-    height: 90%;
+    height: 95%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -71,8 +71,9 @@ li {
     height: 700px;
     width: 300px;
     border: 1px solid white;
-    left: 450px;
+    left: 250px;
     top: 200px;
+    z-index: 8;
 }
 
 /* Name and title */
@@ -81,7 +82,7 @@ li {
     height: 700px;
     width: 800px;
     right: 200px;
-    top: 120px;
+    top: 200px;
     border-radius: 250px;
     border-top: 20px inset #666;
     border-bottom: 20px outset #666;
@@ -214,6 +215,7 @@ li {
 
 .menu-container li:hover {
     background-color: #03385d;
+    cursor: pointer;
 }
 
 /* Lightsaber */
@@ -327,7 +329,7 @@ li {
     background-color: rgb(0, 162, 255);
     z-index: 7;
     position: absolute;
-    top: 355px;
+    top: 435px;
     right: 708px;
     border-radius: 20px 0 0 20px;
     box-shadow: 0 0 20px rgb(0, 162, 255);
@@ -351,10 +353,6 @@ li {
 
 
 /* FOOTER */
-.bottom-blastdoor-panel {
-    height: 50px;
-    border-top: 10px inset #333;
-}
 
 /* BIO PAGE */
 
