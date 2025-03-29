@@ -77,10 +77,10 @@ li {
 /* Name and title */
 .title-and-menu {
     background-color: #000;
-    height: 65vh;
-    width: 70vh;
+    height: 75vh;
+    width: 80vh;
     right: 300px;
-    top: 150px;
+    top: 120px;
     border-radius: 250px;
     border-top: 20px inset #666;
     border-bottom: 20px outset #666;
@@ -88,20 +88,26 @@ li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .name-and-title {
-    text-align: center;
     text-transform: uppercase;
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .name-and-title h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: gold;
 }
 
 .name-and-title h2 {
-    font-size: 7rem;
+    font-size: 5rem;
     display: flex;
     align-items: start;
     padding-bottom: .25em;
@@ -109,20 +115,37 @@ li {
 }
 
 .name-and-title h2 span {
-    font-size: 9rem;
+    font-size: 6rem;
 }
 
 .name-and-title h3 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: darkgoldenrod;
+}
+
+.top-hider-block {
+    height: 160px;
+    width: 100%;
+    background-color: #000;
+    z-index: 1;
+    position: absolute;
+    top: 155px;
+}
+
+.bottom-hider-block {
+    height: 150px;
+    width: 100%;
+    background-color: #000;
+    z-index: 1;
+    position: absolute;
+    bottom: -75px;
 }
 
 /* Services Menu */
 .menu-outer-border {
-    height: 610px;
-    width: 610px;
+    height: 510px;
+    width: 510px;
     border-radius: 50%;
-    border: 1px solid white;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -130,27 +153,34 @@ li {
     justify-content: center;
     overflow: hidden;
     background-color: #03385c;
+    margin-top: 240px;
 }
 
 .menu-inner-border {
-    height: 550px;
-    width: 550px;
+    height: 450px;
+    width: 450px;
     border-radius: 50%;
-    border: 1px solid white;
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     background-color: #000;
 }
 
+.menu-inner-border-outset {
+    position: absolute;
+    height: 150px;
+    width: 460px;
+    background-color: #000;
+    border-radius: 30px;
+    z-index: 0;
+}
+
 .menu-container {
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
-    border: 1px solid white;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -172,6 +202,7 @@ li {
     padding: 1em;
     background-color: #012340;
     text-align: center;
+    text-transform: uppercase;
 }
 
 /* Lightsaber */
