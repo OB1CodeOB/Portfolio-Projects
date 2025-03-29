@@ -33,7 +33,7 @@ li {
 }
 
 .top-blastdoor-panel {
-    border-bottom: 10px outset #000;
+    border-bottom: 10px outset #333;
 }
 
 .blastdoor {
@@ -49,9 +49,21 @@ li {
     background: linear-gradient(to right, #000 40%, #555, #000);
 }
 
+.top-main-blastdoor {
+    border-bottom: 20px outset #666;
+}
+
 .profile,
 .title-and-menu {
     position: absolute;
+}
+
+.profile {
+    height: 70vh;
+    width: 30vh;
+    border: 1px solid white;
+    left: 450px;
+    top: 200px;
 }
 
 .title-and-menu {
@@ -61,6 +73,12 @@ li {
     right: 300px;
     top: 150px;
     border-radius: 250px;
+    border-top: 20px inset #666;
+    border-bottom: 20px outset #666;
+}
+
+.bottom-main-blastdoor {
+    border-top: 20px inset #666;
 }
 
 
@@ -73,7 +91,7 @@ li {
 
 /* FOOTER */
 .bottom-blastdoor-panel {
-    border-top: 10px outset #000;
+    border-top: 10px inset #333;
 }
 
 /* BIO PAGE */
