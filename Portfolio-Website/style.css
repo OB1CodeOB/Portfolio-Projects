@@ -6,4 +6,47 @@
 
 body {
     background-color: #000;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* HEADER & FOOTER */
+.top-blastdoor {
+    background: linear-gradient(to right, #000, #444, #000 );
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    border-bottom: 5px outset #000;
+}
+
+.bottom-blastdoor {
+    background: linear-gradient(to right, #000, #444, #000 );
+    height: 50vh;
+    width: 100%;
+    border-top: 5px outset #000;
+}
+
+.top-blastdoor .doorframe {
+    height: 5vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-top: 5px outset #000;
+}
+
+.bottom-blastdoor .doorframe {
+    height: 5vh;
+    width: 100%;
+    border-bottom: 5px outset #000;
+}
+
+
+
+/* MAIN */
+.content-area {
+    display: none;
 }
