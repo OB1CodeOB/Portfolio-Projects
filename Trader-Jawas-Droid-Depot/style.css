@@ -73,6 +73,11 @@ header .top-row {
     padding: 1em;
     width: 100%;
     background: transparent;
+    font-size: 1rem;
+}
+
+::placeholder {
+    font-size: 1rem;
 }
 
 .search-btn {
