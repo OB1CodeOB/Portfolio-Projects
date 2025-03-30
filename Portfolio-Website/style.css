@@ -21,6 +21,7 @@ body {
     width: 100%;
     position: relative;
     border-bottom: 5px outset #000;
+    transition: 1s ease-in-out;
 }
 
 .top-blastdoor .doorframe {
@@ -48,6 +49,7 @@ body {
     width: 100%;
     border-top: 5px outset #000;
     position: relative;
+    transition: 1s ease-in-out;
 }
 
 .bottom-blastdoor .doorframe {
