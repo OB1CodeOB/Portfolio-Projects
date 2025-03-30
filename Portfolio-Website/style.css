@@ -16,18 +16,11 @@ body {
 
 /* HEADER & FOOTER */
 .top-blastdoor {
-    background: linear-gradient(to right, #000, #444, #000 );
+    background: linear-gradient(to right, #000, #444, #000);
     height: 50vh;
     width: 100%;
     position: relative;
     border-bottom: 5px outset #000;
-}
-
-.bottom-blastdoor {
-    background: linear-gradient(to right, #000, #444, #000 );
-    height: 50vh;
-    width: 100%;
-    border-top: 5px outset #000;
 }
 
 .top-blastdoor .doorframe {
@@ -38,9 +31,39 @@ body {
     border-top: 5px outset #000;
 }
 
+.top-blastdoor .doorframe-arc {
+    height: 100px;
+    width: 250px;
+    border-radius: 60px 60px 0 0;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    margin-left: -125px;
+    border-top: 5px outset #000;
+}
+
+.bottom-blastdoor {
+    background: linear-gradient(to right, #000, #444, #000);
+    height: 50vh;
+    width: 100%;
+    border-top: 5px outset #000;
+    position: relative;
+}
+
 .bottom-blastdoor .doorframe {
     height: 5vh;
     width: 100%;
+    border-bottom: 5px outset #000;
+}
+
+.bottom-blastdoor .doorframe-arc {
+    height: 100px;
+    width: 250px;
+    border-radius: 0 0 60px 60px;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    margin-left: -125px;
     border-bottom: 5px outset #000;
 }
 
