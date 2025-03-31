@@ -25,6 +25,8 @@ body {
     transition: 1s ease-in-out;
     overflow: hidden;
     z-index: 2;
+    display: none;
+
 }
 
 .top-blastdoor .doorframe {
@@ -65,6 +67,7 @@ body {
     transition: 1s ease-in-out;
     overflow: hidden;
     z-index: 2;
+    display: none;
 }
 
 .bottom-blastdoor .doorframe {
@@ -149,6 +152,7 @@ body {
     border: 1px solid;
     width: 50%;
     margin-top: 2em;
+    max-width: 500px;
 }
 
 /* Menu */
@@ -163,6 +167,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.border-decoration {
+    position: absolute;
+    min-height: 125px;
+    width: 92.5%;
+    min-width: 325px;
+    border-radius: 20px;
+    background-color: #000;
 }
 
 .inner-menu-border {
@@ -176,15 +190,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.border-decoration {
-    position: absolute;
-    min-height: 125px;
-    width: 45%;
-    min-width: 325px;
-    border-radius: 20px;
-    background-color: #000;
 }
 
 .menu {
@@ -235,5 +240,6 @@ body {
     bottom: -100px;
     right: -50px;
     transition: 1s ease-out;
+    display: none;
 }
 
