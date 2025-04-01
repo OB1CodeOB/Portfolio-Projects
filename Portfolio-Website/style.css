@@ -1,8 +1,17 @@
+/* Reset spacing styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Fonts */
+@font-face {
+    font-family: 'StarWars';
+    src: url('fonts/starwars.woff2') format('woff2');
+}
+
+
 
 body {
     background-color: #000;
@@ -37,7 +46,8 @@ body {
     border-top: 5px outset #000;
 }
 
-.top-blastdoor:hover, .bottom-blastdoor:hover {
+.top-blastdoor:hover,
+.bottom-blastdoor:hover {
     cursor: pointer;
 }
 
@@ -90,7 +100,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: end;
-    padding-bottom: .5em;   
+    padding-bottom: .5em;
 }
 
 /* MAIN */
@@ -125,18 +135,21 @@ body {
 
 .title h1 {
     font-size: 2.5rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'StarWars', sans-serif;
     letter-spacing: 3px;
 }
 
 .title p:nth-child(2) {
     font-size: 4rem;
-    display: flex;
     font-family: serif;
+    border: 1px solid white;
+    display: flex;
+    
 }
 
 .title p:nth-child(2) span {
     font-size: 5rem;
+    font-weight: bold;
 }
 
 .title p:nth-child(3) {
@@ -242,4 +255,3 @@ body {
     transition: 1s ease-out;
     display: none;
 }
-
